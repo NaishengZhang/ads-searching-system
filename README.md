@@ -67,6 +67,3 @@ __Step2. Get source code from Github and run ads-searching-system server__
 
 ##### Build Tool: Maven
 [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
-
-## License
-[MIT](/LICENSE.md)
