@@ -23,13 +23,6 @@ __Step1. Install MongoDB and Memcached__
 2. Start mongodb server: `$ mongod --config /usr/local/etc/mongod.conf`
 3. Start memcached server: `$ memcached`
 
-__Step2. Get source code from Github and run ads-searching-system server__
-
-1. Clone the project from github: `$ git clone https://github.com/BitTigerInst/ads-searching-system.git`
-2. Go to project folder, open the project in IntelliJ by the POM file
-3. Run `$ mvn clean install` to compile and install the project
-4. Right click the `Main` java file under java folder, click on `Run Main.main()` button
-
 ### Deploy on Heroku
 1. Create an account on Heroku
 2. Login to Heroku, create an app on Heroku. Then you will get a random name as the first part of the url(i.e. https://random-name.herokuapp.com/). You can also specify a name for your project. So in my case the project url is https://ads-searching-system.herokuapp.com/.
